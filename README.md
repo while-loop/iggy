@@ -13,7 +13,7 @@ Installation
 ------------
 
 ```
-$ go get github.com/while-loop/iggy/...
+$ go get github.com/while-loop/iggy
 ```
 
 Usage
