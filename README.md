@@ -3,7 +3,10 @@ iggy
 
 [![GoDoc Widget]][GoDoc]
 
-Intro to Go and Docker
+Iggy is a tool to generate `.gitignore` files from the command line.
+Templates can be generated for multiple languages and/or frameworks.
+
+A list of supported languages/frameworks can be found [here](https://github.com/github/gitignore).
 
 
 Installation
@@ -13,6 +16,23 @@ Installation
 $ go get github.com/while-loop/iggy/...
 ```
 
+Usage
+-----
+
+```
+iggy [-a] <language/framework>...
+
+Usage of iggy:
+  -a    append ignores to current file
+
+```
+
+Example
+-------
+
+```bash
+$ iggy go jetbrains macos vim
+```
 
 License
 -------
